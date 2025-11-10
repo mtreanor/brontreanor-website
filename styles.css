@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    line-height: 1.6;
+}
+
+.top-bar {
+    position: sticky;
+    top: 0;
+    background: white;
+    border-bottom: 1px solid #e0e0e0;
+    z-index: 100;
+}
+
+.top-bar-content {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.left-column {
+    flex: 1;
+    background: #252525;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow: hidden;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.left-column img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.right-column {
+    flex: 1;
+    padding: 2rem;
+}
+
+.section-image {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    padding: 0 0 1rem 0;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #666;
+}
+
+.author-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 75%;
+    max-height: 400px;
+}
+
+.publication-item {
+    margin-bottom: 1.5rem;
+}
+
+.publication-title {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.publication-year {
+    color: #999;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.publication-description {
+    color: #666;
+    margin-bottom: 0.25rem;
+}
+
+.publication-venue {
+    color: #999;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left-column {
+        position: relative;
+        max-height: 300px;
+
+        /* margin-top: 60px; */
+    }
+
+    .left-column img {
+        height: auto;
+        max-height: none;
+        position: relative;
+        top: auto;
+        transform: none;
+    }
+
+    .right-column {
+        padding: 1.5rem;
+    }
+
+    .top-bar-content {
+        padding: 1rem;
+    }
+}
+

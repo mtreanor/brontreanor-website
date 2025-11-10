@@ -1,0 +1,66 @@
+{
+    "publications": [
+        {
+            "title": "In Which Helen Slaughters a Cow",
+            "year": 2024,
+            "description": "Poor Helen. She must slaughter the last cow.",
+            "venue": "Club Chixalub"
+        },
+        {
+            "title": "The Fish",
+            "year": 2021,
+            "description": "The story of a boy and his summer job, revisited.",
+            "venue": "Club Chixalub"
+        },
+        {
+            "title": "A Dinner Cruise for Christ",
+            "year": 2019,
+            "description": "A dinner cruise at the end of the world.",
+            "venue": "Doubleback Review"
+        },
+        {
+            "title": "Full of Infinity",
+            "year": 2018,
+            "description": "A story in honor of Theodore Sturgeon.",
+            "venue": "The Museum of Science Fiction"
+        },
+        {
+            "title": "Desert Golfing",
+            "year": 2017,
+            "description": "Thoughts on Desert Golfing, a video game. An experimental collaboration with Mike Treanor.",
+            "venue": "Deodata"
+        },
+        {
+            "title": "Rejection Parties",
+            "year": 2016,
+            "description": "​A rejection article.",
+            "venue": "Cafe Americain"
+        },
+        {
+            "title": "They Met in Amsterdam",
+            "year": 2016,
+            "description": "A love story.",
+            "venue": "The Oracle Fine Arts Review"
+        },
+        {
+            "title": "Dinner with a Friend",
+            "year": 2015,
+            "description": "A spiritual experience.",
+            "venue": "Bethesda Magazine "
+        },
+        {
+            "title": "Feeding the Fish",
+            "year": 2015,
+            "description": "The story of a boy and his summer job. It doesn't go well.",
+            "venue": "Kaaterskill Basin Literary Magazine"
+        }
+    ],
+    "reading": [
+        {
+            "month": "November",
+            "year": 2025,
+            "book": "Uprooted",
+            "author": "Naomi Novik"
+        }
+    ]
+}
