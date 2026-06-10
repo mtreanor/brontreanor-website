@@ -57,6 +57,12 @@
     ],
     "reading": [
         {
+            "month": "June",
+            "year": 2026,
+            "book": "Dragonlance: Dragons of Autumn Twilight",
+            "author": "Margaret Weis and Tracy Hickman"
+        },
+        {
             "month": "November",
             "year": 2025,
             "book": "Uprooted",
